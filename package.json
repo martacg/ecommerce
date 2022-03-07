@@ -11,7 +11,8 @@
     "dev": "turbo run dev",
     "start": "turbo run start",
     "export": "next build && next export",
-    "prettier-fix": "prettier --write ."
+    "prettier-fix": "prettier --write .",
+    "serve": "serve ./out" 
   },
   "devDependencies": {
     "husky": "^7.0.4",
